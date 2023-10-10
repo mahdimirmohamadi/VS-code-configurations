@@ -1,0 +1,28 @@
+// this the user settings .json file. you can open yours by pressing crtl+shift+p and typing "open settings (json)" and then pasting this in there.
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.editor.enablePreview": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.minimap.size": "fill",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.guides.bracketPairs": "active",
+  "Codegeex.Privacy": false,
+  "Codegeex.Survey": false,
+  "workbench.localHistory.exclude": {
+    "": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "git.autofetch": true,
+  "editor.linkedEditing": true,
+  "editor.fontSize": 13,
+  "workbench.colorTheme": "Cobalt2",
+  "window.zoomLevel": 1,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#05ef3c"
+  }
+}
