@@ -4,9 +4,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "workbench.editor.enablePreview": false,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira Code, monospace",
   "editor.fontLigatures": true,
-  "editor.minimap.size": "fill",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.guides.bracketPairs": "active",
   "Codegeex.Privacy": false,
@@ -17,12 +16,48 @@
   "editor.inlineSuggest.enabled": true,
   "git.autofetch": true,
   "editor.linkedEditing": true,
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "workbench.colorTheme": "Cobalt2",
   "window.zoomLevel": 1,
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.colorCustomizations": {
-    "tree.indentGuidesStroke": "#05ef3c"
-  }
+    "tree.indentGuidesStroke": "#05ef3c",
+    "editorInlineSuggest.foreground": "#9e9e9e",
+    "editorInlineSuggest.background": "#00000000",
+    "editorInlineSuggest.border": "#00000000",
+    "editorInlineSuggest.completionBorder": "#00000000",
+    "editorInlineSuggest.completionBackground": "#00000000",
+    "editorInlineSuggest.completionForeground": "#9e9e9e",
+    "editorInlineSuggest.completionHighlightBackground": "#00000000",
+    "editorInlineSuggest.completionHighlightForeground": "#9e9e9e",
+    "editorInlineSuggest.completionHighlightBorder": "#00000000"
+  },
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.fontFamily": "JetBrainsMonoNL Nerd Font",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "explorer.compactFolders": false,
+  "workbench.tree.enableStickyScroll": true,
+  // "editor.cursorBlinking": "smooth",
+  // "editor.cursorSmoothCaretAnimation": "on"
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "zenMode.hideLineNumbers": false,
+  "editor.minimap.size": "fill",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+  "workbench.commandPalette.experimental.suggestCommands": true
 }
